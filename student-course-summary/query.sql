@@ -52,5 +52,5 @@ left join ( -- getting the total grade
         ) gr
     on gr.person_course_id = lpc.id
 where
-    lp.source_id = {userpk} -- Add userpk if you need to filter by a single student
-    and lc.course_number = '{coursepk}' -- Add coursepk if you need to filter by a single course
+--    lp.source_id = {userpk} -- Add userpk if you need to filter by a single student
+    and lc.course_number = '2022SP.ONL.HCM.828.O' -- Add coursepk if you need to filter by a single course

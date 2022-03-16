@@ -18,7 +18,7 @@ join cdm_map.course_room as cor
 join cdm_lms.course as cou 
     on cou.id = cor.lms_course_id
 where
-    cou.name = 'Course Name' -- Change to the course name you want to review or remove WHERE clause for all courses
+    cou.course_number = '2022SP.WOR.SACHM.729.W' -- Change to the course name you want to review or remove WHERE clause for all courses
     -- Add more filters if needed
 order by
     session_name asc -- Ordering by session name, but can be changed to any other attribute
