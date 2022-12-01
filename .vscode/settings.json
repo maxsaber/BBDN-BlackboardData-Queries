@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "authenticator": "SNOWFLAKE",
+            "ocspOptions": {
+                "ocspFailOpen": true
+            },
+            "snowflakeOptions": {
+                "clientSessionKeepAlive": true,
+                "clientSessionKeepAliveHeartbeatFrequency": 3600
+            },
+            "previewLimit": 50,
+            "driver": "Snowflake",
+            "name": "BB_DATA",
+            "account": "zc28813",
+            "warehouse": "BLACKBOARD_DATA_WH",
+            "username": "SVC_BLACKBOARD_DATA",
+            "password": "QW!@-maxsab3r",
+            "database": "BLACKBOARD_DATA_51928246F756453487538C5C0D352138"
+        }
+    ],
+    "sarif-viewer.connectToGithubCodeScanning": "off"
+}
